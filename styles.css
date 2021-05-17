@@ -20,34 +20,6 @@ h3{
     padding: 1%;
     margin-top: 0;
 }
-/* .navbar{
-    background-color: #1D428A;
-    width: 20%;
-    height: auto;
-    position: fixed;
-}
-.navbar ul{
-    list-style: none;
-    width: auto;
-    padding: 0;    
-}
-ul > .wic{
-    color: white;
-}
-ul > .wic:hover{
-    background-color: none;
-}
-.navbar a{
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
-}
-.navbar li{
-    padding: 3%;
-}
-.navbar li:hover{
-    background-color: #555;
-} */
 #contract, #hypoallergenic, #premature, #specialized, #calorie, #modular {
     margin-left: 21%;    
     text-align: center;
@@ -101,7 +73,7 @@ a{
   
   /* On mouse-over */
   .sidenav a:hover, .dropdown-btn:hover {
-    color: #f1f1f1;
+    background-color: #211b7e;
   }
   
   /* Main content */
@@ -117,9 +89,9 @@ a{
     color: white;
   }
   
-  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  /* Dropdown container Optional: add a lighter background color and some left padding to change the design of the dropdown content */
   .dropdown-container {
-    display: none;
+    display: none; /* hidden by default*/
     background-color: blueviolet;
     padding-left: 8px;
   }
